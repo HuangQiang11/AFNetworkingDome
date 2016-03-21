@@ -38,9 +38,10 @@
 
 - (void)loadWebServiceRequestWithParams:(NSMutableDictionary *)params aURL:(NSString *)aURL method:(NSString *)method delegate:(id) delegate{
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"kToken"]) {
-        [manager.requestSerializer setValue:[[NSUserDefaults standardUserDefaults] objectForKey:@"kToken"] forHTTPHeaderField:@"X-CSRF-Token"];
-    }
+    //add http header if need
+//    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"kToken"]) {
+//        [manager.requestSerializer setValue:[[NSUserDefaults standardUserDefaults] objectForKey:@"kToken"] forHTTPHeaderField:@"X-CSRF-Token"];
+//    }
     
     if ([method isEqual:kPOST]) {
        [manager POST:aURL parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5FF873D69C9D818A8B29F5C312CE5EE1C1605538",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FC5DF2EA6F61C7F05685BD3790F53D1E1A71C4B6" : 0,
+    "5FF873D69C9D818A8B29F5C312CE5EE1C1605538" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EDD61C48-7C1A-43DA-94BB-315D8A22FE10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FC5DF2EA6F61C7F05685BD3790F53D1E1A71C4B6" : "",
+    "5FF873D69C9D818A8B29F5C312CE5EE1C1605538" : "AFNetworkingDome\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AFNetworkingDome",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AFNetworkingDome.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HuangQiang11\/AFNetworkingDome.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FF873D69C9D818A8B29F5C312CE5EE1C1605538"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HuangQiang11\/TestProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FC5DF2EA6F61C7F05685BD3790F53D1E1A71C4B6"
+    }
+  ]
+}

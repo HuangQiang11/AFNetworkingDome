@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "WebServiceRequestHandler.h"
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<WebServiceRequestHandlerDelegate>
 
 
 @end
